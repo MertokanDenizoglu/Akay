@@ -1,0 +1,149 @@
+#MainDiv { 
+    
+    z-index: 100;
+   
+    
+    
+   
+    
+   }
+  
+  .stickyDiv { 
+    background:  #2d394b;
+    width: 100%;
+    z-index: 1;
+    height: 120px;
+    float: left;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    
+   
+     
+    
+    
+   }
+  
+  .fixed {
+    position: fixed;
+    top:0;
+   }
+
+   .paginat{
+    list-style: none;
+    
+    
+  
+   
+  
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display:inline-block;
+   line-height: 40px;
+    margin-left: 180px;
+    margin-top: -500px;
+    
+    
+    
+    :hover{
+        color: #c89a69;
+        text-decoration: none;
+        transition: 1s;
+    }
+
+   }
+
+   .zinde{
+    z-index: 1;
+   }
+
+   .contacts{
+    float: right;
+    text-align: center;
+    
+    margin-top: -100px;
+    margin-right: 50px;
+   
+    color: white;
+    list-style:none;
+    cursor: pointer;
+
+    
+    }
+    
+    
+    
+    
+   
+
+   .paginat a{
+    color: white;
+    :hover{
+        color: #c89a69;
+        text-decoration: none;
+        transition: 1s;
+    }
+    
+    
+   }
+   .fa-solid {
+    list-style: none;
+   }
+
+
+ul#main li ul{
+    
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 300px;
+    margin-left: 30px;
+    
+    
+    z-index: 1;
+    background-color: #2d394b;
+    
+    
+}
+ 
+
+ul#main li:hover ul {
+    display: block;
+    transition: 1s;
+    
+    
+    
+    
+    
+}
+
+
+.logohukuk{
+    
+    margin-top: 10px;
+    h6{
+        margin-left: 140px;
+        margin-top: -50px;
+        b{
+            color: #c89a69;
+        }
+    }
+    
+    
+}
+
+
+
+@media screen and (max-width: 800px){
+    #MainDiv{
+        display: none;
+    }
+    
+}
+
+.logo{
+    filter: brightness(0) invert(1);
+    margin-left: 40px;
+    
+}

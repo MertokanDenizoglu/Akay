@@ -1,0 +1,8 @@
+@media only screen and (min-width: 800px) {
+  .navbar {
+    display: none;
+  }
+}
+.navbar {
+  background-color: #2d394b;
+}/*# sourceMappingURL=Rnavbar.css.map */

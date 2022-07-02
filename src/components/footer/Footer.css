@@ -1,0 +1,121 @@
+.footercontainer {
+  display: flex;
+  background-image: url(../../../public/footer2.jpg);
+  filter: brightness(90%);
+  width: 100%;
+  display: inline-flex;
+  font-family: "Abril Fatface", cursive;
+  height: 600px;
+  margin-top: -10px;
+}
+.footercontainer .fa-solid {
+  color: goldenrod;
+}
+
+.section1 {
+  display: block;
+  width: 500px;
+  height: 600px;
+  float: left;
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  text-align: left;
+  padding: 80px;
+  font-size: 15px;
+  padding-top: 200px;
+}
+.section1 h3 {
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+.section1 li {
+  margin-bottom: 10px;
+}
+
+.section2 {
+  display: block;
+  width: 500px;
+  height: 600px;
+  text-align: left;
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  padding: 80px;
+  padding-top: 200px;
+}
+.section2 h3 {
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+.section2 li {
+  margin-bottom: 10px;
+}
+
+.section3 {
+  display: block;
+  width: 500px;
+  height: 600px;
+  text-align: left;
+  padding: 80px;
+  padding-top: 200px;
+  color: white;
+  font-family: "Abril Fatface", cursive;
+}
+.section3 h3 {
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+.section3 li {
+  margin-bottom: 10px;
+}
+
+.fa-solid {
+  margin-right: 10px;
+}
+
+.listlist {
+  list-style: none;
+}
+
+.section1 ul {
+  list-style: none;
+}
+
+.section2 ul {
+  list-style: none;
+}
+
+.section3 ul {
+  list-style: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .footercontainer {
+    width: 100%;
+    padding: 0;
+  }
+
+  .section1 {
+    margin: 0 auto;
+    float: left;
+    font-size: 10px;
+  }
+
+  .section2 {
+    margin: 0 auto;
+    float: left;
+    font-size: 10px;
+  }
+}
+.footercontainer h4 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.inputarea {
+  color: white;
+  width: 500px;
+  height: 600px;
+  border: 1px solid black;
+  padding: 70px;
+  text-align: center;
+}/*# sourceMappingURL=Footer.css.map */

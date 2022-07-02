@@ -1,0 +1,11 @@
+.footeralt {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  background-color: black;
+}
+.footeralt span {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+}/*# sourceMappingURL=Footeralt.css.map */

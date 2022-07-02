@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 24px;
+    background-color: #2d394b;
+  }
+  .item {
+    margin: 12px 4px 0 40px;
+    font-family: 'Abril Fatface', cursive;
+  }
+  .flip_card {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+  }
+  .flip_card_inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.7s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .flip_card:hover .flip_card_inner {
+    transform: rotateY(180deg);
+  }
+  .flip_card_front,
+  .flip_card_back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding: 4px;
+    border-radius: 12px;
+  }
+  
+  .flip_card_front {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  
+  .flip_card_back {
+    background-color: #c89a69;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+  .flip_card_back p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .flip_card_back span {
+    max-width: 160px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  

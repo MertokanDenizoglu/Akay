@@ -1,0 +1,52 @@
+.textarea{
+    padding: 100px;
+    color: white;
+    background-color: #2d394b;
+    height: 765px;
+ 
+  text-align: center;
+    .abt{font-size: 25px;
+        margin-bottom: 0px;
+        font-family: 'Abril Fatface', cursive;
+        
+
+    }
+    h2{
+        font-size: 30px;
+        font-family: 'Abril Fatface', cursive;
+    }
+
+    p{
+        text-align: left;
+        display: flex;
+        font-size: 20px;
+        margin-top: 60px;
+        font-family: 'Abril Fatface', cursive;
+    }
+
+    .abtimg{
+    width: 100%;
+    height: auto;
+    }
+}
+
+.flexbox{
+    display: flex;
+    margin-top: 100px;
+}
+
+
+@media  only screen and(max-width: 800px){
+  .flexbox  { overflow-wrap: break-word;
+        
+        
+    }
+
+    .flexbox img{
+      display: none;
+    }
+    
+       
+    }
+    
+

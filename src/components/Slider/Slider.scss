@@ -1,0 +1,148 @@
+#app { height: 100% }
+html,
+body {
+  
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  background: #000;
+ 
+  z-index: 0;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 60px;
+  
+}
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+
+.swiper-slide .title {
+  font-size: 41px;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.swiper-slide .subtitle {
+  font-size: 70px;
+  font-family: 'Abril Fatface', cursive;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  margin-left: 200px;
+  text-shadow: 5px 5px black;
+}
+
+.swiper-slide .text {
+  font-size: 20px;
+  max-width: 400px;
+  line-height: 1.3;
+  font-family: 'Abril Fatface', cursive;
+  margin-left: 200px;
+  text-shadow: 3px 3px black;
+}
+.parallax-bg{
+    background-image: url(../../../public/slider.png);
+    opacity: 0.7;
+}
+
+
+.zindex2{
+    z-index: 9999999;
+
+}
+
+
+.swiper-slide .subtitle2{font-size: 70px;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    margin-left: 400px;
+    text-shadow: 5px 5px black;}
+
+    .swiper-slide .subtitle3{font-size: 70px;
+        font-family: 'Abril Fatface', cursive;
+        margin-bottom: 25px;
+        margin-top: 50px;
+        margin-left: 600px;
+        text-shadow: 5px 5px black;}
+
+        .swiper-slide .text2 {
+            font-size: 20px;
+            max-width: 400px;
+            line-height: 1.3;
+            font-family: 'Abril Fatface', cursive;
+            margin-left: 400px;
+            text-shadow: 3px 3px black;}
+            .swiper-slide .text3 {
+                font-size: 20px;
+                max-width: 400px;
+                line-height: 1.3;
+                font-family: 'Abril Fatface', cursive;
+                margin-left: 600px;
+                text-shadow: 3px 3px black;}
+
+
+              @media only screen and(max-width:800px){
+                .swiper-slide   .text{
+                  
+                  font-size: 13px;
+                  margin: 0 auto;
+                  margin-top: -20px;
+                  
+                  
+                }
+                .swiper-slide   .text2{
+                  font-size: 13px;
+                  margin: 0 auto;
+                  margin-top: -20px;
+                  
+                }
+                .swiper-slide  .text3{
+                  font-size: 13px;
+                  margin: 0 auto;
+                  margin-top: -20px;
+                  
+                }
+
+                .swiper-slide  .subtitle{
+
+                  margin: 0 auto;
+                  margin-top:-50px;
+                  
+                }
+                .swiper-slide   .subtitle2{
+                  margin: 0 auto;
+                  margin-top:-50px;
+                }
+                .swiper-slide   .subtitle3{
+                  margin: 0 auto;
+                  margin-top:-50px;
+                }
+              }
